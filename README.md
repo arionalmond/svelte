@@ -1,6 +1,7 @@
 # svelte
 
-This is a generated project, I moved the generated `README.md` to `ExampleProjectReadme.md`.  
+This is a generated project, I deleted the generated `README.md` and replaced it with this. The generated was outdated for this process of generating the project..  
+
 [Svelte Docs](https://learn.svelte.dev/tutorial/welcome-to-svelte)  
 
 ## Generating Project
@@ -47,3 +48,7 @@ Stuck? Visit us at https://svelte.dev/chat
 
 ```
 
+## Next Steps
+git init before npm install, https://github.com/arionalmond/svelte  
+- [ ] npm install
+- [x] npm run dev -- --open
