@@ -50,5 +50,15 @@ Stuck? Visit us at https://svelte.dev/chat
 
 ## Next Steps
 git init before npm install, https://github.com/arionalmond/svelte  
-- [ ] npm install
+- [x] npm install
 - [x] npm run dev -- --open
+
+
+## Prod Build
+- update adapter to [adapter-node](https://kit.svelte.dev/docs/adapter-node)  
+- update code in `svelte.config.js` to use node adapter  
+- `npm install dotenv`  
+- add `.env` file and some env vars  
+- `node --env-file=.env build`  
+- [deploy](https://kit.svelte.dev/docs/adapter-node#deploying)  
+- `npm ci --omit dev`
